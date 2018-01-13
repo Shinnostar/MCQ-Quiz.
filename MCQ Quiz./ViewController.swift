@@ -11,15 +11,19 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
     var trueFalseOptions = ["True","False"]
+    var questions = [""]
     
     //MARK: Properties
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var questuonLabel: UILabel!
+    var count: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.isScrollEnabled = false
         tableView.delegate = self
         tableView.dataSource = self
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,16 +60,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("You tapped " + self.trueFalseOptions[indexPath.row] + ".")
-        
-        let alert = UIAlertController(title: "Cell Tap Detected", message: "You tapped " + self.trueFalseOptions[indexPath.row] + " .", preferredStyle:  UIAlertControllerStyle.alert)
-        
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        
-        self.present(alert, animated: false, completion: nil)
-        
+        if count == 0{
+            if indexPath.row == 0{
+                let alert = UIAlertController(title: "You got it right!", message: "You tapped " + self.trueFalseOptions[indexPath.row] + ".", preferredStyle:  UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(alert, animated: false, completion: nil)
+            } else {
+                let alert = UIAlertController(title: "You got it wrong!", message: "You tapped " + self.trueFalseOptions[indexPath.row] + ".", preferredStyle:  UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(alert, animated: false, completion: nil)
+            }
         tableView.deselectRow(at: tableView.indexPathForSelectedRow!, animated: true)
+        
     }
-}
+    }
+    
+    
+    }
 
 extension UIView {
     @IBInspectable var borderColor: UIColor? {
@@ -94,5 +105,6 @@ extension UIView {
             layer.cornerRadius = newValue
             layer.masksToBounds = newValue > 0
         }
-    }
 }
+}
+
