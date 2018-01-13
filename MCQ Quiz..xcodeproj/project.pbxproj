@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A008EEB37D83B28D514FEE /* Pods_MCQ_Quiz_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE850C2C562021F72B0DB439 /* Pods_MCQ_Quiz_.framework */; };
 		6BDFA70E2009A8C1001D1403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFA70D2009A8C1001D1403 /* AppDelegate.swift */; };
 		6BDFA7102009A8C1001D1403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFA70F2009A8C1001D1403 /* ViewController.swift */; };
 		6BDFA7132009A8C1001D1403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFA7112009A8C1001D1403 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		6BDFA7182009A8C1001D1403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFA7162009A8C1001D1403 /* LaunchScreen.storyboard */; };
 		6BDFA7232009A8C1001D1403 /* MCQ_Quiz_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFA7222009A8C1001D1403 /* MCQ_Quiz_Tests.swift */; };
 		6BDFA72E2009A8C1001D1403 /* MCQ_Quiz_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFA72D2009A8C1001D1403 /* MCQ_Quiz_UITests.swift */; };
+		9A017B2A737F558CCD645F2A /* Pods_MCQ_Quiz_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29D5E9DB15C46541654486A /* Pods_MCQ_Quiz_Tests.framework */; };
+		FD10F1901E9E487D85445C70 /* Pods_MCQ_Quiz_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C04FC2C410979F830F8FCA1 /* Pods_MCQ_Quiz_UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D20C82C440F769193031288 /* Pods-MCQ Quiz.UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQ Quiz.UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCQ Quiz.UITests/Pods-MCQ Quiz.UITests.release.xcconfig"; sourceTree = "<group>"; };
+		206C41CA2BA815E9ACF06DF6 /* Pods-MCQ Quiz..release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQ Quiz..release.xcconfig"; path = "Pods/Target Support Files/Pods-MCQ Quiz./Pods-MCQ Quiz..release.xcconfig"; sourceTree = "<group>"; };
+		3F8A52518074615856501220 /* Pods-MCQ Quiz.Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQ Quiz.Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCQ Quiz.Tests/Pods-MCQ Quiz.Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6BDFA70A2009A8C1001D1403 /* MCQ Quiz..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCQ Quiz..app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDFA70D2009A8C1001D1403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BDFA70F2009A8C1001D1403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		6BDFA7292009A8C1001D1403 /* MCQ Quiz.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCQ Quiz.UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDFA72D2009A8C1001D1403 /* MCQ_Quiz_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQ_Quiz_UITests.swift; sourceTree = "<group>"; };
 		6BDFA72F2009A8C1001D1403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E57CF785B44E1663344698 /* Pods-MCQ Quiz..debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQ Quiz..debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCQ Quiz./Pods-MCQ Quiz..debug.xcconfig"; sourceTree = "<group>"; };
+		8C04FC2C410979F830F8FCA1 /* Pods_MCQ_Quiz_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCQ_Quiz_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FA18209577EF5CFCD7F31C /* Pods-MCQ Quiz.UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQ Quiz.UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCQ Quiz.UITests/Pods-MCQ Quiz.UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE419266EBE4B6738B32D81 /* Pods-MCQ Quiz.Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCQ Quiz.Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCQ Quiz.Tests/Pods-MCQ Quiz.Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE850C2C562021F72B0DB439 /* Pods_MCQ_Quiz_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCQ_Quiz_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29D5E9DB15C46541654486A /* Pods_MCQ_Quiz_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCQ_Quiz_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A008EEB37D83B28D514FEE /* Pods_MCQ_Quiz_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A017B2A737F558CCD645F2A /* Pods_MCQ_Quiz_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD10F1901E9E487D85445C70 /* Pods_MCQ_Quiz_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				6BDFA7212009A8C1001D1403 /* MCQ Quiz.Tests */,
 				6BDFA72C2009A8C1001D1403 /* MCQ Quiz.UITests */,
 				6BDFA70B2009A8C1001D1403 /* Products */,
+				DC360FDFBC665DFE6668C6E7 /* Pods */,
+				8FAAC070E7B30DD39E6B0A95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "MCQ Quiz.UITests";
 			sourceTree = "<group>";
 		};
+		8FAAC070E7B30DD39E6B0A95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE850C2C562021F72B0DB439 /* Pods_MCQ_Quiz_.framework */,
+				F29D5E9DB15C46541654486A /* Pods_MCQ_Quiz_Tests.framework */,
+				8C04FC2C410979F830F8FCA1 /* Pods_MCQ_Quiz_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC360FDFBC665DFE6668C6E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80E57CF785B44E1663344698 /* Pods-MCQ Quiz..debug.xcconfig */,
+				206C41CA2BA815E9ACF06DF6 /* Pods-MCQ Quiz..release.xcconfig */,
+				CBE419266EBE4B6738B32D81 /* Pods-MCQ Quiz.Tests.debug.xcconfig */,
+				3F8A52518074615856501220 /* Pods-MCQ Quiz.Tests.release.xcconfig */,
+				C0FA18209577EF5CFCD7F31C /* Pods-MCQ Quiz.UITests.debug.xcconfig */,
+				0D20C82C440F769193031288 /* Pods-MCQ Quiz.UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BDFA7322009A8C1001D1403 /* Build configuration list for PBXNativeTarget "MCQ Quiz." */;
 			buildPhases = (
+				AEFF8AFD4606ACEC73C5559F /* [CP] Check Pods Manifest.lock */,
 				6BDFA7062009A8C1001D1403 /* Sources */,
 				6BDFA7072009A8C1001D1403 /* Frameworks */,
 				6BDFA7082009A8C1001D1403 /* Resources */,
+				86B4E650D4C897CDDADC9CF3 /* [CP] Embed Pods Frameworks */,
+				C8D3CD3E66214E8703A9D663 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BDFA7352009A8C1001D1403 /* Build configuration list for PBXNativeTarget "MCQ Quiz.Tests" */;
 			buildPhases = (
+				176D5E4BB4F9BE7983CA2CBB /* [CP] Check Pods Manifest.lock */,
 				6BDFA71A2009A8C1001D1403 /* Sources */,
 				6BDFA71B2009A8C1001D1403 /* Frameworks */,
 				6BDFA71C2009A8C1001D1403 /* Resources */,
+				F744257D9CF0E78A0DB932C2 /* [CP] Embed Pods Frameworks */,
+				F1F042A7D83D6B4FE8035A6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BDFA7382009A8C1001D1403 /* Build configuration list for PBXNativeTarget "MCQ Quiz.UITests" */;
 			buildPhases = (
+				7365E51579E3C2794C7FE855 /* [CP] Check Pods Manifest.lock */,
 				6BDFA7252009A8C1001D1403 /* Sources */,
 				6BDFA7262009A8C1001D1403 /* Frameworks */,
 				6BDFA7272009A8C1001D1403 /* Resources */,
+				F86856469DE1CA9BFA3906E5 /* [CP] Embed Pods Frameworks */,
+				9E8C5FEE202EAE7F866D20A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176D5E4BB4F9BE7983CA2CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCQ Quiz.Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7365E51579E3C2794C7FE855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCQ Quiz.UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B4E650D4C897CDDADC9CF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MCQ Quiz./Pods-MCQ Quiz.-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCQ Quiz./Pods-MCQ Quiz.-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8C5FEE202EAE7F866D20A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCQ Quiz.UITests/Pods-MCQ Quiz.UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFF8AFD4606ACEC73C5559F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCQ Quiz.-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D3CD3E66214E8703A9D663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCQ Quiz./Pods-MCQ Quiz.-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F042A7D83D6B4FE8035A6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCQ Quiz.Tests/Pods-MCQ Quiz.Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F744257D9CF0E78A0DB932C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCQ Quiz.Tests/Pods-MCQ Quiz.Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F86856469DE1CA9BFA3906E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCQ Quiz.UITests/Pods-MCQ Quiz.UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BDFA7062009A8C1001D1403 /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		6BDFA7332009A8C1001D1403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E57CF785B44E1663344698 /* Pods-MCQ Quiz..debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +639,7 @@
 		};
 		6BDFA7342009A8C1001D1403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206C41CA2BA815E9ACF06DF6 /* Pods-MCQ Quiz..release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +655,7 @@
 		};
 		6BDFA7362009A8C1001D1403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE419266EBE4B6738B32D81 /* Pods-MCQ Quiz.Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +673,7 @@
 		};
 		6BDFA7372009A8C1001D1403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8A52518074615856501220 /* Pods-MCQ Quiz.Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		6BDFA7392009A8C1001D1403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FA18209577EF5CFCD7F31C /* Pods-MCQ Quiz.UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +708,7 @@
 		};
 		6BDFA73A2009A8C1001D1403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D20C82C440F769193031288 /* Pods-MCQ Quiz.UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

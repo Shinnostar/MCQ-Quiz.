@@ -1,0 +1,6 @@
+framework module Pods_MCQ_Quiz_ {
+  umbrella header "Pods-MCQ Quiz.-umbrella.h"
+
+  export *
+  module * { export * }
+}
